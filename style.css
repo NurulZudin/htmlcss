@@ -1,0 +1,75 @@
+* {
+    border: 1px solid black;
+   
+
+}
+
+.container {
+
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    /*  text-decoration: none; /*utk buang line*/
+
+
+}
+
+#header {
+    background-color: black;
+    border-bottom: 5px solid red;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header li {
+    display: inline;
+    padding: 0 20px;
+}
+#main {
+    min-height: 600;
+    background: url("banner.jpg") no-repeat;
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-size: 1300px;
+    font-family: Trebuchet MS;
+    filter: grayscale(60%);
+}
+
+#main h1 {
+    font-size: 80px;
+    margin: 100px 0 10px;
+    font-weight: bold;
+}
+
+#main p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#ContactMe {
+    background-color: black;
+    color: white;
+}
+
+#about {
+    background-color: black;
+    color: white;
+
+}
